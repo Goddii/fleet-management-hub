@@ -5,7 +5,8 @@
     <meta charset ="UTF-8">
     <title>Login</title>
     <link rel="stylesheet" type="text/css" href="css/style.css">
-    
+    <title>Fleet Login</title>
+    <link rel = 'stylesheet' href = 'https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css'>
 
 
 
@@ -14,35 +15,55 @@
 <body>
 
     <div class="login-container">
-        <video autoplay muted id="bgVideo" class="background-video">
-            <source src="videos/truck5.mp4" type="video/mp4">
-            Your browser does not support the video tag.
-        </video>
-        <div class="login-header">
-            <img src="images/logo.png" alt="Fleet Logo" class="logo">
-            <h1>Welcome to Fleet</h1>
-            <p>Please sign in to your account.</p>
+        <div class="login-card">
+            <div class="logo">
+                <i class="fas fa-truck"></i>
+            </div>
+            <h1> FleetMaster</h1>
+            <p>Fleet Management System</p>
         </div>
-        <form class="login-form" method="post" action="/login">
-            <div>
-                <label for="username">Username</label>
-                <input type="text" id="username" name="username" required autofocus placeholder="Enter your username">
+        
+        
+        <div class="login-form-section">
+            <div class="welcome-text">
+                <h2>Welcome Back!</h2>
+                <p>Please sign in to your account.</p>
             </div>
-            <div>
-                <label for="password">Password</label>
-                <input type="password" id="password" name="password" required placeholder="Enter your password">
+
+            <form method="POST" action="/login">
+                <div class="form-group">
+                    <label for="username">
+                        <i class = "fas fa-user"></i> Username
+                    </label>
+                    <input type="text" id="username" name="username" required autofocus placeholder="Enter your username">
+                </div>
+                <div class="form-group">
+                    <label for="password">
+                        <i class = "fas fa-lock"></i> Password
+                    </label>
+                    <input type="password" id="password" name="password" required placeholder="Enter your password">
+                </div>
+                <button type="submit" class="btn-signin"><i class="fas fa-sign-in-alt"></i> Sign In</button>
+            </form>
+
+            <div class="error-message" style="display: none;">
+                <i class="fas fa-exclamation-circle"></i>
+                <p> Invalid username or password</p>
             </div>
-            <button type="submit">Sign In</button>
-        </form>    
-    </div>
 
 
-    <script src="js/script.js"></script>
+            </div>
+
+            <div class="login-footer">
+                <p> 
+                    <i class="fas fa-shield-alt"></i>
+                    Secure login with FleetMaster
+                </p> 
+            </div>
+        </div>           
+
 
 </body>
-
-
-
 
 
 </html>
