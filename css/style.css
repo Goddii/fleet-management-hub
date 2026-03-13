@@ -24,9 +24,25 @@ body {
     background: white;
     border-radius: 1rem;
     box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
-    max-width :28rem;
+    max-width :40rem;
     width: 100%;
     overflow: hidden;
+}    
+
+.login-card h1{
+    text-align: center;
+
+}
+
+.login-card p {
+    text-align: center;
+    color: #4a5568;
+    font-size: 0.875rem;
+    margin-top: 0.5rem;
+}
+
+
+
 
 .login-header {
     background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
@@ -35,8 +51,6 @@ body {
     
 }
 
-
-}
 .logo {
     width : 4rem;
     height: 4rem;
@@ -71,18 +85,22 @@ body {
 }
 
 .login-form-section {
-    padding : 2.5rem 2rem
+    padding : 2.5rem 2rem;
+    max-width : 30rem;
+    width : 100%;
 }
 
 .welcome-text {
     margin-bottom: 2rem;
 }
+
 .welcome-text h2 {
     font-size: 1.5rem;
     font-weight: 700;
     color: #1a202c;
     margin-bottom: 0.5rem;
 }
+
 .welcome-text p {
     font-size: 0.875rem;
     color: #4a5568;
@@ -171,6 +189,15 @@ body {
     font-size: 0.875rem;
     font-weight: 500;
 }
+
+.login-footer {
+    margin-top: 2rem;
+    width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: auto;
+}
+
 
 .login-footer p {
     background: #f7fafc;
