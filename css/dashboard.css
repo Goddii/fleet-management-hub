@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+    background: #f3f4f6; 
+    color: #111827;
+    line-height: 1.5;
+}
+
+.navbar {
+    background-color: #e5ebf1;
+    padding: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1rem;
+}
+
+.navbar-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    max-width: 1280px;
+}
+.top-nav-menu {
+    display: flex;
+    padding: 0.5rem 1rem;
+    justify-content: space-between;
+    gap: 1rem;
+}

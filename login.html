@@ -8,7 +8,7 @@
     <link rel="stylesheet" type="text/css" href="css/style.css">
     <title>Fleet Login</title>
     <link rel = 'stylesheet' href = 'https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css'>
-
+    <link rel ="path/to/fa-animations.min.css" rel="stylesheet">
 
 
 </head>
@@ -18,7 +18,7 @@
     <div class="login-container">
         <div class="login-card">
             <div class="logo">
-                <i class="fas fa-truck"></i>
+                <i class="fas fa-truck move-truck"></i>
             </div>
             <h1> FleetMaster</h1>
             <p>Fleet Management System</p>
@@ -34,13 +34,13 @@
             <form method="POST" action="/login">
                 <div class="form-group">
                     <label for="username">
-                        <i class = "fas fa-user"></i> Username
+                        <i class = "fas fa-user user-icon-move"></i> Username
                     </label>
                     <input type="text" id="username" name="username" required autofocus placeholder="Enter your username">
                 </div>
                 <div class="form-group">
                     <label for="password">
-                        <i class = "fas fa-lock"></i> Password
+                        <i class = "fas fa-lock lock-move"></i> Password
                     </label>
                     <input type="password" id="password" name="password" required placeholder="Enter your password">
                 </div>
@@ -51,20 +51,20 @@
                 <i class="fas fa-exclamation-circle"></i>
                 <p> Invalid username or password</p>
             </div>
-
-
-            </div>
-
-    </div> 
+        </div>
+    </div>    
+         
+    <div class="login-footer">
+        <p> 
+            <i class="fas fa-shield-alt"></i>
+            Secure login with FleetMaster
+        </p> 
+    </div>    
+    
+        
 
 </body>
 
-<div class="login-footer">
-    <p> 
-        <i class="fas fa-shield-alt"></i>
-        Secure login with FleetMaster
-    </p> 
-</div>
 
 
 </html>
