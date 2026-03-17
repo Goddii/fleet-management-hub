@@ -243,7 +243,13 @@ body {
     font-weight: 700;
     color: #111827
 }
-
+.card-actions {
+    margin-top: 1.5rem;
+    padding-top: 1.5rem;
+    border-top: 1px solid #e5e7eb;
+    display: flex;
+    gap: 0.75rem;
+}
 
 
 
