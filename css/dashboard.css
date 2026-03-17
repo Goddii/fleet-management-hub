@@ -238,6 +238,11 @@ body {
     text-transform: uppercase;
     margin-bottom: 0.5rem;
 }
+.info-item p:last-child{
+    font-size: 1.125rem;
+    font-weight: 700;
+    color: #111827
+}
 
 
 
