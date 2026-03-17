@@ -178,6 +178,19 @@ body {
     color: #2563eb;
 }
 
+.stat-icon-green {
+    background: #dbeafe;
+    color: #16a34a
+}
+
+.stat-icon-orange {
+    background: #fed7aa;
+    color: #ea580c
+}
+
+
+
+
 .grid {
     display: grid;
 }
