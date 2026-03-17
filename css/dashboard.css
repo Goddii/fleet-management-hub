@@ -219,6 +219,25 @@ body {
     gap: 1rem;
     margin-top: 1.5rem;
 }
+@media(min-width: 768px){
+    .truck-info-grid{
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media(min-width: 1024px){
+    .truck-info-grid{
+        grid-template-columns: repeat(4, 1fr);
+    }
+}
+
+.info-item p:first-child{
+    font-size: 0.75rem;
+    color: #6b7280;
+    font-weight: 500;
+    text-transform: uppercase;
+    margin-bottom: 0.5rem;
+}
 
 
 
