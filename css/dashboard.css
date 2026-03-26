@@ -1,15 +1,21 @@
-*{
+/* *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-}
+} */
 
 body {
     font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
     background: #fefeff; 
     color: #333b50;
     line-height: 1.5;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
 }
+
 
 .navbar {
     background-color: #f3f9fc;
@@ -18,6 +24,7 @@ body {
     justify-content: space-between;
     align-items: center;
     gap: 1rem;
+    width: 100%;
 }
 
 .navbar-container{
@@ -77,6 +84,15 @@ body {
     color: #111827
 }
 
+.logo-icon {
+    border-radius: 0.5rem;
+    box-shadow: 0 1px 3px 0 rgba(0,0,0,0.1);
+    padding: 20px;
+    background: lightblue;
+}
+
+
+
 /* user-info p:last-child{
     font-size: 0.75rem;
     color: #6b7280;
@@ -124,8 +140,9 @@ body {
 
 .main-content {
     padding: 2rem 1rem;
-    max-width: 1280px;
-    margin: 0;
+    /* max-width: 1280px; */
+    /* margin: 0; */
+    width: 80%;
 }
 
 @media(min-width: 640px){
@@ -290,12 +307,67 @@ body {
 .uploads-section {
     display: flex;
     justify-content: space-around;
+    gap: 20px;
+    /* box-shadow: 0 1px 3px 0 rgba(0,0,0,0.1);
+    border-radius: 0.5rem;
+    width: 100%; */
+
 }
 .uploads-section-one {
     padding: 20px;
     border-radius: 0.5rem;
     box-shadow: 0 1px 3px 0 rgba(0,0,0,0.1);
-    min-width: 400px;
+    min-width: 330px;
     align-items: center;
 
+}
+.leaves-section {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    gap: 40px;
+    margin-top: 40px;
+    box-shadow: 0 1px 3px 0 rgba(0,0,0,0.1);
+    border-radius: 0.5rem;
+    padding: 40px;
+    width: 78%;
+}
+.leave-management-section {
+    display: flex;
+    gap: 20px;
+    justify-content: space-between;
+}
+.annual-leave-section {
+    border-radius: 0.5rem;
+    box-shadow: 0 1px 3px 0 rgba(0,0,0,0.1);
+    padding: 20px;
+    width: 25%
+}
+
+.sick-leave-section {
+    border-radius: 0.5rem;
+    box-shadow: 0 1px 3px 0 rgba(0,0,0,0.1);
+    padding: 20px;
+    width: 25%;
+}
+
+.pending-request-section {
+    border-radius: 0.5rem;
+    box-shadow: 0 1px 3px 0 rgba(0,0,0,0.1);
+    padding: 20px;
+    width: 25%;
+
+}
+.btn-management {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    
+}
+
+#btn-views {
+    background-color: lightblue;
+    padding: 20px;
+    border: none;
+    border-radius: 8px;
 }
