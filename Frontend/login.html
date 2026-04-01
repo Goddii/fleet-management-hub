@@ -31,7 +31,7 @@
                 <p>Please sign in to your account.</p>
             </div>
 
-            <form method="POST" action="/login">
+            <form id ="login-form">
                 <div class="form-group">
                     <label for="username">
                         <i class = "fas fa-user user-icon-move"></i> Username
@@ -45,6 +45,9 @@
                     <input type="password" id="password" name="password" required placeholder="Enter your password">
                 </div>
                 <button type="submit" class="btn-signin"><i class="fas fa-sign-in-alt"></i> Sign In</button>
+                <div class="forgot-click">
+                <a href="#">forgot your password. click here</a>
+                </div>
             </form>
 
             <div class="error-message" style="display: none;">
@@ -61,10 +64,12 @@
         </p> 
     </div>    
     
-        
-
+ 
+    
+<script src="/Frontend/js/login.js"></script>
 </body>
 
 
 
 </html>
+

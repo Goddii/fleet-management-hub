@@ -255,3 +255,9 @@ body {
     color: white;
     font-size: 0.875rem;
 }
+
+.forgot-click {
+    margin: 0 auto;
+    text-align: center;
+    padding: 20px;
+}
