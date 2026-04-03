@@ -14,11 +14,8 @@
     <!--Navigation Bar-->
     <nav class="navbar">
         <div class="navbar-container">
-            <div class="logo-icon">
-                <i class="bi bi-truck"></i> 
-            </div>
             <div class="navbar-title">
-                <h1>FleetMaster</h1>
+                <h1><i class="bi bi-truck" id="logo-icon"></i> FleetMaster</h1>
             </div>
         </div>
 
@@ -39,23 +36,24 @@
             <a href="/driver/truck/handover-checklist" class="nav-link">
                 <i class="bi bi-clipboard-check"></i>Handover Checklist
             </a>    
-        </div>
+        
 
-        <div class="user-section">
+            
             <div class="user-avatar">
-                GA
+                    GA
             </div>
             <div class="user-info">
-                <p>Godwin.Asewe</p>
+                Godwin Asewe
                 <p>Driver</p>
             </div>
             <a href="/logout" class="logout-link" title="Logout">
                 <i class = "bi bi-box-arrow-right"></i>
             </a>
+       
          </div>
 
          <!-- mobile menu -->
-        <div class="mobile-menu" id="mobileMenu">
+        <!-- <div class="mobile-menu" id="mobileMenu">
             <a href="/driver/dashboard" class="nav-link active">
                 <i class="bi bi-speedometer2"></i>Dashboard
             </a>
@@ -71,7 +69,7 @@
             <a href="/driver/truck/handover-checklist" class="nav-link">
                 <i class="bi bi-clipboard-check"></i>Handover Checklist
             </a>       
-        </div> 
+        </div>  -->
     </nav>
 
 
@@ -110,6 +108,7 @@
                     <p>Diesel</p>
                 </div>
             </div>
+            <hr>
             <div class="card-actions">
                 <a href="/truck/1" class="btn btn-primary">
                     <i class="bi bi-info-circle"></i>View Full Details
@@ -120,7 +119,7 @@
             </div>
          </div>
          
-         <div class="grid grid-cols-2" style="margin-bottom: 2rem;margin-top: 2rem; border-radius: 20px; box-shadow: 0 1px 3px 0 rgba(0,0,0,0.1); padding: 20px;">
+         <div class="grid grid-cols-2" style="background-color: white; margin-bottom: 2rem;margin-top: 2rem; border-radius: 20px; box-shadow: 0 1px 3px 0 rgba(0,0,0,0.1); padding: 20px;">
             <div class="alert alert-warning">
                 <div style="display:flex; align-items: center; gap: 0.75rem; margin-bottom: 1rem;">
                     <div class="stat-icon stat-icon-orange">
@@ -157,7 +156,7 @@
 
          </div>
         <!-- uploads section  -->
-         <div class="uploads-section">
+        <div class="uploads-section"> 
             <div class = uploads-section-one>
                 <i class="bi bi-cloud-upload"></i>
                 <h3>Upload Documentation</h3>
@@ -191,17 +190,17 @@
                     <p>Annual Leave Days</p>
                     <p>Available per year</p>
                 </div>
-                <div class="sick-leave-section">
+                <div class="annual-leave-section">
                     <h3>10</h3>
                     <p>Sick leaves available per year</p>
                 </div>
-                <div class ="pending-request-section">
+                <div class ="annual-leave-section">
                     <h3>0</h3>
                     <p>Pending Request</p>   
                 </div>
             </div>
             <div class="btn-management">
-                <button type="button" id="btn-views">View Leave Management</button>
+                <button type="button" id="btn-views"><i class="bi bi-calendar"></i> View Leave Management</button>
             </div>
          </div>
 
