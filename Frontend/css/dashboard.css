@@ -123,10 +123,9 @@ body {
 .uploads-section {
     display: flex;
     justify-content: space-between;
-    width: 1700px;
     border: 1rem;
     border-radius: 0.5rem;
-    padding: 20px;
+    
 }
 
 .uploads-section-one {
@@ -139,18 +138,18 @@ body {
     box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
     background-color: white;
     padding: 20px;
-    width: 370px;
+    width: 360px;
     height: 200px;
     
 }
 
 .leaves-section {
-    width: 1700px;
     border: 1rem;
     border-radius: 0.5rem;
     box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
     background-color: white;
     padding: 20px;
+    margin-top: 20px;
 
 }
 
